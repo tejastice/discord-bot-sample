@@ -20,7 +20,7 @@ async def on_message(message):
     if message.author == bot.user:
         return
     
-    await message.channel.send('こんにちは。はろー！')
+    await message.channel.send('こんにちは。はろー！よろしくね')
     
     await bot.process_commands(message)
 
